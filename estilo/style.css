@@ -10,8 +10,10 @@
 }
 
 header {
+    position: fixed;
     background-color: #028C20;
     height: 60px;
+    width: 100vw;
 }
 
 nav {
@@ -43,7 +45,7 @@ nav a:hover {
     justify-content: space-between;
     background-color: black;
     width: 100vw;
-    height: calc(100vh - 60px);
+    height: 100vh;
 }
 
 .apresentacao {
@@ -98,9 +100,47 @@ nav a:hover {
     background-color: #028c20bb;
     border-radius: 20px;
     width: 300px;
-    height: 3px;display: block;
+    height: 3px;
+    display: block;
     position: absolute;
     top: 95%;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.segunda-secao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100vw;
+    height: 90vh;
+}
+
+.foto-2 {
+    width: 350px;
+    height: 350px;
+    background: black url(../imagens/foto-about.png) no-repeat center center;
+    background-size: cover;
+}
+
+.sobre {
+    width: 300px;
+}
+.sobre h1 {
+    font-size: 2em;
+    color: #028C20;
+}
+.sobre p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.linha {
+    display: block;
+    margin: auto;
+    background-color: #028c20bb;
+    border-radius: 20px;
+    width: 300px;
+    height: 3px;
+    margin-top: -20px;
 }
