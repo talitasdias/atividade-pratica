@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+} 
+
 header {
     position: fixed;
     background-color: #028C20;
