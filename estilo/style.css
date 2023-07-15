@@ -114,7 +114,7 @@ nav a:hover {
     justify-content: center;
     gap: 50px;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
 }
 
 .foto-2 {
@@ -135,12 +135,55 @@ nav a:hover {
     font-size: 1em;
     line-height: 1.5em;
 }
-.linha {
-    display: block;
-    margin: auto;
-    background-color: #028c20bb;
-    border-radius: 20px;
-    width: 300px;
-    height: 3px;
-    margin-top: -20px;
+
+.terceira-secao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 90vh;
+    background-color: black;
+    color: white;
+}
+.follow p {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+.follow .icones {
+    display: flex;
+    gap: 15px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form h1 {
+    letter-spacing: 10px;
+    font-weight: 300;
+}
+form input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #028c2000;
+}
+form input:hover, textarea:hover {
+    border: 2px solid #028C20;
+}
+
+form .enviar {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+    border:  2px solid white;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+}
+form .enviar:hover {
+    border: 2px solid #028C20;
+    background-color: #028C20;
 }

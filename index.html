@@ -11,7 +11,7 @@
         <nav>
             <a href="#inicio">INÍCIO</a>
             <a href="#sobre">SOBRE MIM</a>
-            <a href="#">CONTATO</a>
+            <a href="#contato">CONTATO</a>
         </nav>
     </header>
     <main>
@@ -29,16 +29,34 @@
 
             </div>
         </section>
-        <section class="segunda-secao">
+        <section class="segunda-secao" id="sobre">
             <div class="foto-2">
 
             </div>
             <div class="sobre">
-                <h1 id="sobre">Sobre mim</h1>
+                <h1>Sobre mim</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero minima, blanditiis quod velit, expedita iste rem maxime sed quo excepturi obcaecati incidunt fugit, molestiae ad impedit tempore a reprehenderit at.</p>
             </div>
         </section>
-        <div class="linha"></div>
+        <section class="terceira-secao" id="contato">
+            <div class="follow">
+                <p>SIGA-ME</p>
+                <div class="icones">
+                    <a href="#"><img src="imagens/linkedin (1).png" alt="LinkedIn"></a>
+                    <a href="#"><img src="imagens/github.png" alt="GitHub"></a>
+                    <a href="#"><img src="imagens/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="formulario">
+                <form action="#" method="post">
+                    <h1>FORMULÁRIO DE CONTATO</h1>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    <input type="email" name="email" id="email" placeholder="Digite um e-mail válido">
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                    <button type="submit" class="enviar">ENVIAR</button>
+                </form>
+            </div>
+        </section>
     </main>
 </body>
 </html>
